@@ -1,5 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
 import PropTypes from 'prop-types'
+=======
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
 import {
   StyleSheet,
   Text,
@@ -88,7 +91,11 @@ const styles = StyleSheet.create({
 });
 
 Actions.contextTypes = {
+<<<<<<< HEAD
   actionSheet: PropTypes.func,
+=======
+  actionSheet: React.PropTypes.func,
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
 };
 
 Actions.defaultProps = {
@@ -101,11 +108,19 @@ Actions.defaultProps = {
 };
 
 Actions.propTypes = {
+<<<<<<< HEAD
   onSend: PropTypes.func,
   options: PropTypes.object,
   optionTintColor: PropTypes.string,
   icon: PropTypes.func,
   onPressActionButton: PropTypes.func,
+=======
+  onSend: React.PropTypes.func,
+  options: React.PropTypes.object,
+  optionTintColor: React.PropTypes.string,
+  icon: React.PropTypes.func,
+  onPressActionButton: React.PropTypes.func,
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
   containerStyle: ViewPropTypes.style,
   iconTextStyle: Text.propTypes.style,
 };

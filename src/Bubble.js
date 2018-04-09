@@ -1,5 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
 import PropTypes from 'prop-types'
+=======
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
 import {
   Text,
   Clipboard,
@@ -198,7 +201,11 @@ const styles = {
 };
 
 Bubble.contextTypes = {
+<<<<<<< HEAD
   actionSheet: PropTypes.func,
+=======
+  actionSheet: React.PropTypes.func,
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
 };
 
 Bubble.defaultProps = {
@@ -228,6 +235,7 @@ Bubble.defaultProps = {
 };
 
 Bubble.propTypes = {
+<<<<<<< HEAD
   touchableProps: PropTypes.object,
   onLongPress: PropTypes.func,
   renderMessageImage: PropTypes.func,
@@ -247,19 +255,53 @@ Bubble.propTypes = {
     right: ViewPropTypes.style,
   }),
   bottomContainerStyle: PropTypes.shape({
+=======
+  touchableProps: React.PropTypes.object,
+  onLongPress: React.PropTypes.func,
+  renderMessageImage: React.PropTypes.func,
+  renderMessageText: React.PropTypes.func,
+  renderCustomView: React.PropTypes.func,
+  renderTime: React.PropTypes.func,
+  position: React.PropTypes.oneOf(['left', 'right']),
+  currentMessage: React.PropTypes.object,
+  nextMessage: React.PropTypes.object,
+  previousMessage: React.PropTypes.object,
+  containerStyle: React.PropTypes.shape({
+    left: ViewPropTypes.style,
+    right: ViewPropTypes.style,
+  }),
+  wrapperStyle: React.PropTypes.shape({
+    left: ViewPropTypes.style,
+    right: ViewPropTypes.style,
+  }),
+  bottomContainerStyle: React.PropTypes.shape({
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
     left: ViewPropTypes.style,
     right: ViewPropTypes.style,
   }),
   tickStyle: Text.propTypes.style,
+<<<<<<< HEAD
   containerToNextStyle: PropTypes.shape({
     left: ViewPropTypes.style,
     right: ViewPropTypes.style,
   }),
   containerToPreviousStyle: PropTypes.shape({
+=======
+  containerToNextStyle: React.PropTypes.shape({
+    left: ViewPropTypes.style,
+    right: ViewPropTypes.style,
+  }),
+  containerToPreviousStyle: React.PropTypes.shape({
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
     left: ViewPropTypes.style,
     right: ViewPropTypes.style,
   }),
   //TODO: remove in next major release
+<<<<<<< HEAD
   isSameDay: PropTypes.func,
   isSameUser: PropTypes.func,
+=======
+  isSameDay: React.PropTypes.func,
+  isSameUser: React.PropTypes.func,
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
 };

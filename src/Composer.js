@@ -1,5 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
 import PropTypes from 'prop-types'
+=======
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
 import {
   Platform,
   StyleSheet,
@@ -81,6 +84,7 @@ Composer.defaultProps = {
 };
 
 Composer.propTypes = {
+<<<<<<< HEAD
   onChange: PropTypes.func,
   composerHeight: PropTypes.number,
   text: PropTypes.string,
@@ -90,5 +94,16 @@ Composer.propTypes = {
   onTextChanged: PropTypes.func,
   onInputSizeChanged: PropTypes.func,
   multiline: PropTypes.bool,
+=======
+  onChange: React.PropTypes.func,
+  composerHeight: React.PropTypes.number,
+  text: React.PropTypes.string,
+  placeholder: React.PropTypes.string,
+  placeholderTextColor: React.PropTypes.string,
+  textInputProps: React.PropTypes.object,
+  onTextChanged: React.PropTypes.func,
+  onInputSizeChanged: React.PropTypes.func,
+  multiline: React.PropTypes.bool,
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
   textInputStyle: TextInput.propTypes.style,
 };

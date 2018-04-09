@@ -1,5 +1,8 @@
 import React from "react";
+<<<<<<< HEAD
 import PropTypes from 'prop-types'
+=======
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
 import {Image, StyleSheet, View, ViewPropTypes} from "react-native";
 import GiftedAvatar from "./GiftedAvatar";
 import {isSameUser, isSameDay, warnDeprecated} from "./utils";
@@ -94,6 +97,7 @@ Avatar.defaultProps = {
 };
 
 Avatar.propTypes = {
+<<<<<<< HEAD
   renderAvatarOnTop: PropTypes.bool,
   position: PropTypes.oneOf(['left', 'right']),
   currentMessage: PropTypes.object,
@@ -104,10 +108,27 @@ Avatar.propTypes = {
     right: ViewPropTypes.style,
   }),
   imageStyle: PropTypes.shape({
+=======
+  renderAvatarOnTop: React.PropTypes.bool,
+  position: React.PropTypes.oneOf(['left', 'right']),
+  currentMessage: React.PropTypes.object,
+  nextMessage: React.PropTypes.object,
+  onPressAvatar: React.PropTypes.func,
+  containerStyle: React.PropTypes.shape({
+    left: ViewPropTypes.style,
+    right: ViewPropTypes.style,
+  }),
+  imageStyle: React.PropTypes.shape({
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
     left: ViewPropTypes.style,
     right: ViewPropTypes.style,
   }),
   //TODO: remove in next major release
+<<<<<<< HEAD
   isSameDay: PropTypes.func,
   isSameUser: PropTypes.func
+=======
+  isSameDay: React.PropTypes.func,
+  isSameUser: React.PropTypes.func
+>>>>>>> 1e8970379ee5d1fff80b86fb4a124df302c56f94
 };
