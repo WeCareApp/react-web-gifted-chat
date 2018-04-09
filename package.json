@@ -1,6 +1,6 @@
 {
   "name": "wecare-react-web-gifted-chat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The most complete chat UI for React Web",
   "main": "index.js",
   "repository": {
@@ -14,7 +14,7 @@
     "message",
     "chat"
   ],
-  "author": "Jan Romaniak",
+  "author": "txs",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stermedia/react-web-gifted-chat/issues"
